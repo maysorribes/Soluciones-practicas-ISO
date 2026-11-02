@@ -11,4 +11,8 @@
 
 - [Esquema de particionamiento](esquema-particionamiento-solucion.md) — sistemas de archivos, GPT frente a MBR, identificación de particiones en un arranque dual, UEFI y modo heredado.
 
+## UT3. Configuración básica de Linux
+
+- [Práctica 5. Usuarios y grupos](ut3-5-usuarios-solucion.md) — useradd, usermod y groupadd, grupos primarios y secundarios, /etc/skel, políticas de contraseñas con chage, bloqueo y borrado de cuentas, y los ficheros passwd, shadow, group y gshadow.
+
 *(Aquí se irán añadiendo enlaces a medida que se publiquen nuevas prácticas.)*
