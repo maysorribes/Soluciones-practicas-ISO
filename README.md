@@ -13,6 +13,8 @@
 
 ## UT3. Configuración básica de Linux
 
+- [Práctica 1. Archivos y directorios](ut3-1-archivos-solucion.md) — rutas absolutas y relativas, mkdir, cp, mv y rm, ficheros ocultos, y empaquetar y comprimir con tar.
+- [Práctica 3. Procesos y prioridades](ut3-3-procesos-solucion.md) — trabajos en primer y segundo plano, ps, pstree y top, carga media, señales con kill, pkill y killall, y prioridades con nice y renice.
 - [Práctica 5. Usuarios y grupos](ut3-5-usuarios-solucion.md) — useradd, usermod y groupadd, grupos primarios y secundarios, /etc/skel, políticas de contraseñas con chage, bloqueo y borrado de cuentas, y los ficheros passwd, shadow, group y gshadow.
 
 *(Aquí se irán añadiendo enlaces a medida que se publiquen nuevas prácticas.)*
