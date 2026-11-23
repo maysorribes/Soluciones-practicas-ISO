@@ -35,7 +35,7 @@ jobs
 [1]+  Ejecutando              sleep 900 &
 ```
 
-++ctrl+z++ envía la señal `SIGTSTP` y **suspende** el proceso. `bg` lo reanuda en **segundo plano** (sin argumentos actúa sobre el trabajo actual, el marcado con `+`).
+<kbd>Ctrl</kbd>+<kbd>Z</kbd> envía la señal `SIGTSTP` y **suspende** el proceso. `bg` lo reanuda en **segundo plano** (sin argumentos actúa sobre el trabajo actual, el marcado con `+`).
 
 ### Ejercicio 2. Tres `sleep` en segundo plano
 
@@ -62,7 +62,7 @@ fg %?1200
 # Ctrl+C
 ```
 
-`%?cadena` selecciona el trabajo cuya orden **contiene** esa cadena. (`%sleep` no serviría, porque hay varios trabajos que empiezan por `sleep` y daría "trabajo ambiguo".) Una vez en primer plano, ++ctrl+c++ envía `SIGINT` y lo termina.
+`%?cadena` selecciona el trabajo cuya orden **contiene** esa cadena. (`%sleep` no serviría, porque hay varios trabajos que empiezan por `sleep` y daría "trabajo ambiguo".) Una vez en primer plano, <kbd>Ctrl</kbd>+<kbd>C</kbd> envía `SIGINT` y lo termina.
 
 ### Ejercicio 4. Número de trabajo frente a PID
 
@@ -191,13 +191,13 @@ MiB Intercambio:   2048,0 total,   2048,0 libre,      0,0 usado.   2010,6 dispon
 | 4 | Memoria RAM: total, libre, usada y usada como búferes/caché |
 | 5 | Intercambio (*swap*): total, libre, usado y memoria **disponible** de verdad para nuevos programas |
 
-**b)** Ordenar por memoria: tecla ++shift+m++ (por CPU: ++shift+p++).
+**b)** Ordenar por memoria: tecla <kbd>Shift</kbd>+<kbd>M</kbd> (por CPU: <kbd>Shift</kbd>+<kbd>P</kbd>).
 
-**c)** Solo mis procesos: tecla ++u++ y escribir el usuario. (O lanzar `top -u alumno`.)
+**c)** Solo mis procesos: tecla <kbd>u</kbd> y escribir el usuario. (O lanzar `top -u alumno`.)
 
-**d)** Cada CPU por separado: tecla ++1++.
+**d)** Cada CPU por separado: tecla <kbd>1</kbd>.
 
-Se sale con ++q++.
+Se sale con <kbd>q</kbd>.
 
 ### Ejercicio 11. Carga media y núcleos
 
@@ -226,7 +226,7 @@ Mem:           3,8Gi       1,6Gi       985Mi        45Mi       1,2Gi       2,1Gi
 Inter:         2,0Gi          0B       2,0Gi
 ```
 
-Al abrir Firefox, `usado` sube varios cientos de MB y `libre`/`disponible` bajan; al cerrarlo vuelven aproximadamente a los valores anteriores. Se sale con ++ctrl+c++.
+Al abrir Firefox, `usado` sube varios cientos de MB y `libre`/`disponible` bajan; al cerrarlo vuelven aproximadamente a los valores anteriores. Se sale con <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 
 ---
 
